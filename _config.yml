@@ -1,16 +1,13 @@
 # Site wide configuration
-
-title: "My Site"
-description: "This is a description of my awesome site."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale: en
-url:
-feed:
-  path: atom.xml
+title: "কৃত্রিম বুদ্ধিমত্তা | বাংলা"
+description: "ডেটা সায়েন্স এবং কৃত্রিম বুদ্ধিমত্তা নিয়ে আমার ব্লগ।"
+logo: 
+teaser: 
+locale: "bn"
+url: "https://shadikulislam.github.io"
+baseurl: ""
 
 # Jekyll configuration
-
 sass:
   sass_dir: _sass
   style: compressed
@@ -23,42 +20,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
 
-
 # Site owner
 owner:
-  name:
-  email:
+  name: "Shadikul Islam"
+  avatar: bio-photo.jpg
+  bio: "ডেটা সায়েন্স এবং এআই নিয়ে কাজ করছি।"
   twitter:
-  google:
-    ad-client:
-    ad-slot:
-  bio:
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
-
-
-include:
-  - .htaccess
-exclude:
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
