@@ -1,11 +1,11 @@
 # Site wide configuration
-title: "কৃত্রিম বুদ্ধিমত্তা | বাংলা"
-description: "ডেটা সায়েন্স এবং কৃত্রিম বুদ্ধিমত্তা নিয়ে আমার ব্লগ।"
+title: "ইন্টেলিজেন্ট সিস্টেমের সন্ধানে" # আপনার সাইটের নাম
+description: "ডেটা সায়েন্স এবং এআই রোডম্যাপ নিয়ে আমার ব্লগ"
 logo: 
 teaser: 
-locale: "bn"
-url: "https://shadikulislam.github.io"
-baseurl: ""
+locale: bn # ভাষা বাংলা করার জন্য 'bn' দিন
+url: "https://shadikulislam.github.io" # আপনার গিটহাব ইউআরএল
+baseurl: "" # এটি অবশ্যই খালি রাখবেন
 
 # Jekyll configuration
 sass:
@@ -20,9 +20,37 @@ plugins:
   - jekyll-gist
   - jekyll-feed
 
-# Site owner
+# Site owner (আপনার প্রোফাইল তথ্য)
 owner:
   name: "Shadikul Islam"
-  avatar: bio-photo.jpg
+  email: 
+  twitter: 
+  google:
+    ad-client:
+    ad-slot:
   bio: "ডেটা সায়েন্স এবং এআই নিয়ে কাজ করছি।"
-  twitter:
+  avatar: bio-photo.jpg 
+  disqus-shortname:
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
